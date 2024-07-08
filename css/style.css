@@ -1,9 +1,6 @@
 body {
-    
     margin-left: 25%;
     margin-right: 25%;
-    background-color: rgb(182, 189, 195);
-    background-image: url(/images/processoUnificadoImagem1.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 23%;
@@ -15,6 +12,9 @@ body {
     text-align: center;
 }
 
+hr {
+    border: 1px solid gray
+}
 
 .navegacao-container {
     display: flex;
@@ -24,7 +24,6 @@ p {
     margin-left: 3%;
     font-size: larger;
     font-family: sans-serif;
-    font-style: oblique;
 }
 
 ul, ol {
