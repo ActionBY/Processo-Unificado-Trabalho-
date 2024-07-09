@@ -5,7 +5,9 @@ body {
     background-attachment: fixed;
     background-size: 23%;
     background-position: 0%;
-    
+    background-image: url("/images/grayBackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .header-container {
@@ -16,8 +18,20 @@ hr {
     border: 1px solid gray
 }
 
-.navegacao-container {
-    display: flex;
+.nav {
+    font-size: larger;
+}
+
+table, tr, th {
+    text-align: center;
+    border: 2px solid black;
+    border-collapse: collapse;
+    background-color: aliceblue;
+    width: 600px;
+}
+
+table {
+    margin-left: 21%;
 }
 
 p {
@@ -28,4 +42,12 @@ p {
 
 ul, ol {
     font-size: large;
+}
+
+.borderBody {
+    background-color:rgb(211, 197, 197);
+    border: 2px ridge black;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    padding-left: 1%;
 }
